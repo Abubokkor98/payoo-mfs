@@ -40,12 +40,11 @@ document.getElementById('btn-add-money').addEventListener('click', function(even
 
         // step-6: update the balance
         document.getElementById('account-balance').innerText = updateBalance;
-
-        // clear the inputs value after click
-        document.getElementById('input-add-amount').value = '';
-        document.getElementById('input-pin-number').value = '';
     }
     else{
         alert('Invalid Pin')
     }
+            // clear the inputs value after click
+            document.getElementById('input-add-amount').value = '';
+            document.getElementById('input-pin-number').value = '';
 })
